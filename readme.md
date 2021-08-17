@@ -74,4 +74,4 @@ Restart apache.
 ```sh
 systemctl restart httpd.service
 ```
-You can open the webiste image on a browser tab and see the image url will be changed to your bucket like "https://tkhouse-img.s3.ap-south-1.amazonaws.com/iced-americano.png".
+You can open the webiste image on a browser tab and see the image url will be pointed to your S3 bucket like "https://tkhouse-img.s3.ap-south-1.amazonaws.com/iced-americano.png".
