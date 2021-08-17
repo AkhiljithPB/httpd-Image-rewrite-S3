@@ -44,8 +44,8 @@ upload: img/iced-americano.png to s3://tkhouse-img/iced-americano.png
 
 ### Step2: Make the bucket for public access and add IAM Bucket Policy To Make Bucket Public.
 
-Firstly we have to edit the Block public access option from permissions for my bucket "tkhouse-img" to made access to public.
-After that, adding below Bucket policy from permissions to allow everyone one to access objects from my bucket tkhouse-img.
+Firstly we have to edit the Block-public-access option from permissions for our bucket "tkhouse-img" to made access to public.
+After that, adding below Bucket policy from permissions to allow everyone one to access objects from bucket tkhouse-img.
 
 ```sh
 {
