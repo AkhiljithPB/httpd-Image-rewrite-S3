@@ -74,7 +74,7 @@ Restart apache.
 ```sh
 systemctl restart httpd.service
 ```
-You can open the webiste image on a browser tab and see the image url will be pointed to your S3 bucket like "https://tkhouse-img.s3.ap-south-1.amazonaws.com/iced-americano.png".
+You can check the website's image on a browser tab and see the image url will be pointed to your S3 bucket like "https://tkhouse-img.s3.ap-south-1.amazonaws.com/iced-americano.png".
 
 ![alt text](https://github.com/AkhiljithPB/httpd-Image-rewrite-S3/blob/fed36dd6f6421866400c20fcfc36216337a1e389/web.png?raw=true)
 ![alt text](https://github.com/AkhiljithPB/httpd-Image-rewrite-S3/blob/fed36dd6f6421866400c20fcfc36216337a1e389/coffee.png?raw=true)
