@@ -10,7 +10,7 @@ Here I'm using an S3 bucket to store images of my website which will be easy to 
 - systemctl start httpd
 - systemctl enable httpd -y
 
-I'm already website "cafe.tkhouse.tech" which running on an EC2 instance with apache webserver. 
+I'm already having a website "cafe.tkhouse.tech" which running on an EC2 instance with apache webserver. 
 What I am doing here is moving the "img" directory to a S3 bucket and modifying the apache configuration file to serve the images from the bucket.
 
 
