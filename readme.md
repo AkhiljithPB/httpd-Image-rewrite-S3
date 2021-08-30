@@ -12,7 +12,8 @@ Here I'm using an S3 bucket to store images of my website which will be easy to 
 
 I'm already having a website "cafe.tkhouse.tech" which running on an EC2 instance with apache webserver. 
 What I am doing here is moving the "img" directory to a S3 bucket and modifying the apache configuration file to serve the images from the bucket.
-
+###Diagram
+https://github.com/AkhiljithPB/httpd-Image-rewrite-S3/blob/0d635781986f1f96f803c268f8a2036c4d5d261e/Untitled%20Diagram.png
 
 ### Step1: Copying contents from "img" to S3Bucket using awscli command.
 
